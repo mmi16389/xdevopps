@@ -1,0 +1,14 @@
+{
+  "imports": {
+    "@cnamts/root-config": "https://squelette-front-dev.digital.cnamts.fr/cnamts-root-config.js",
+    "menu-front": "https://menu-front-dev.digital.cnamts.fr/js/app.js",
+    "satisfaction-cli-front": "https://references-front-dev.digital.cnamts.fr/js/app.js",
+    "accueil-front": "https://accueil-front-dev.digital.cnamts.fr/js/app.js",
+    "vue": "https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js",
+    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.5.5/lib/system/single-spa.min.js",
+    "vue-i18n": "https://unpkg.com/vue-i18n/dist/vue-i18n.js",
+    "vuetify": "https://cdn.jsdelivr.net/npm/vuetify@2.3.0/dist/vuetify.js",
+    "@cnamts/vue-dot": "../node_modules/@cnamts/vue-dot/dist/vue-dot.umd.min.js",
+    "vue-router": "https://unpkg.com/vue-router@3.2.0/dist/vue-router.js"
+  }
+}
