@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "@xdevopps/root-config": "//localhost:9000",
+    "vue": "https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js",
+    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.5.5/lib/system/single-spa.min.js",
+    "vue-i18n": "https://unpkg.com/vue-i18n/dist/vue-i18n.js",
+    "vuetify": "https://cdn.jsdelivr.net/npm/vuetify@2.3.0/dist/vuetify.js",
+    "vue-router": "https://unpkg.com/vue-router@3.2.0/dist/vue-router.js"
+  }
+}

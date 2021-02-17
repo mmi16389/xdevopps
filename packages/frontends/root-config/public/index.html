@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="importmap-type" content="systemjs-importmap" />
+    <title>Root Config</title>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.4.0/dist/system.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.4.0/dist/extras/amd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.4.0/dist/extras/named-exports.min.js"></script>
+    <script type="systemjs-importmap">
+      <%= JSON.stringify(importmaps) %>
+    </script>
+  </head>
+
+  <body>
+    <script>
+      System.import("@xdevopps/root-config");
+    </script>
+    <div>Welcom to xdevopps platform</div>
+  </body>
+</html>
