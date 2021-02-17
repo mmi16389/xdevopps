@@ -1,11 +1,4 @@
 {
-<<<<<<< HEAD
-  "packages": [
-    "packages/backends/*",
-    "packages/frontends/*"
-  ],
-=======
   "packages": ["packages/backends/*", "packages/frontends/*"],
->>>>>>> master
   "version": "0.0.0"
 }
